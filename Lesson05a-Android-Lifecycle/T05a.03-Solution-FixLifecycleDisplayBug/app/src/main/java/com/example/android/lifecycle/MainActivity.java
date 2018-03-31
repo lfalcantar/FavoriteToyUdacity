@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
          * we use an ArrayList to track if these lifecycle events had occurred. If any of them have
          * occurred, we append their respective name to the TextView.
          */
-        mLifecycleCallbacks.add(0, ON_STOP);
+        mLifecycleCallbacks.add(ON_STOP);
 
         logAndAppend(ON_STOP);
     }
@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
          * we use an ArrayList to track if these lifecycle events had occurred. If any of them have
          * occurred, we append their respective name to the TextView.
          */
-        mLifecycleCallbacks.add(0, ON_DESTROY);
+        mLifecycleCallbacks.add(ON_DESTROY);
 
         logAndAppend(ON_DESTROY);
     }
