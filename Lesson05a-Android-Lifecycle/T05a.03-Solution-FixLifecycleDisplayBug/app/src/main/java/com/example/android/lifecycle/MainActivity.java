@@ -204,7 +204,6 @@ public class MainActivity extends AppCompatActivity {
 
         logAndAppend(ON_DESTROY);
     }
-
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
